@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T14:03:22.519Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="gWgL0KlUcNMMzVFE5Es0" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-27T14:43:23.814Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="xuOk9tqX_DuUPlwdnbhv" version="22.1.4" type="github">
   <diagram name="ページ1" id="NI4J2HSnKmm6HsM66qGL">
-    <mxGraphModel dx="875" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1235" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="-0j5kSYJqAFjcUl3PRMV-3" value="盤面" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="970" y="140" width="790" height="510" as="geometry" />
+          <mxGeometry x="970" y="140" width="790" height="320" as="geometry" />
         </mxCell>
         <mxCell id="-LdQKynwCAIaJtEhS0bI-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;盤面&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ レギオン: レギオン[]&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="1000" y="200" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="-LdQKynwCAIaJtEhS0bI-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ゲーム&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-          <mxGeometry x="640" y="200" width="160" height="90" as="geometry" />
+          <mxGeometry x="480" y="200" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="-0j5kSYJqAFjcUl3PRMV-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;システムコントローラ&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="200" width="160" height="90" as="geometry" />
@@ -25,35 +25,69 @@
         <mxCell id="-0j5kSYJqAFjcUl3PRMV-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;マスの数字&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- value: int&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ マスの数字(初期値がある)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="1410" y="320" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="RMZXwUn5wrRnydLYdDvs-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;開始準備：State&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="560" width="160" height="90" as="geometry" />
+        <mxCell id="RMZXwUn5wrRnydLYdDvs-9" value="勝利条件の判定" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="970" y="500" width="790" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="RMZXwUn5wrRnydLYdDvs-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ゲーム中：State&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="560" width="160" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="RMZXwUn5wrRnydLYdDvs-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;終了処理：State&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="560" width="160" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="RMZXwUn5wrRnydLYdDvs-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ゲーム進行&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ state: &lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ゲーム処理()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="550" y="360" width="160" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="RMZXwUn5wrRnydLYdDvs-5" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="RMZXwUn5wrRnydLYdDvs-1" target="RMZXwUn5wrRnydLYdDvs-4">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="790" y="540" as="sourcePoint" />
-            <mxPoint x="950" y="540" as="targetPoint" />
+        <mxCell id="RMZXwUn5wrRnydLYdDvs-11" value="" style="endArrow=none;endFill=0;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;entryX=0.44;entryY=0.043;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-0j5kSYJqAFjcUl3PRMV-3" target="RMZXwUn5wrRnydLYdDvs-9">
+          <mxGeometry x="-0.7315" y="55" relative="1" as="geometry">
+            <mxPoint x="1190" y="520" as="sourcePoint" />
+            <mxPoint x="1350" y="520" as="targetPoint" />
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RMZXwUn5wrRnydLYdDvs-6" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="RMZXwUn5wrRnydLYdDvs-2" target="RMZXwUn5wrRnydLYdDvs-4">
+        <mxCell id="RMZXwUn5wrRnydLYdDvs-13" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="190" y="500" width="620" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="RMZXwUn5wrRnydLYdDvs-8" value="ゲーム進行" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="RMZXwUn5wrRnydLYdDvs-13">
+          <mxGeometry width="620" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="RMZXwUn5wrRnydLYdDvs-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;開始準備：State&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="RMZXwUn5wrRnydLYdDvs-13">
+          <mxGeometry x="30" y="260" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RMZXwUn5wrRnydLYdDvs-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ゲーム中：State&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="RMZXwUn5wrRnydLYdDvs-13">
+          <mxGeometry x="230" y="260" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RMZXwUn5wrRnydLYdDvs-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;終了処理：State&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="RMZXwUn5wrRnydLYdDvs-13">
+          <mxGeometry x="430" y="260" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RMZXwUn5wrRnydLYdDvs-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ゲーム進行&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ state: &lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ゲーム処理()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="RMZXwUn5wrRnydLYdDvs-13">
+          <mxGeometry x="230" y="60" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="RMZXwUn5wrRnydLYdDvs-5" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="RMZXwUn5wrRnydLYdDvs-13" source="RMZXwUn5wrRnydLYdDvs-1" target="RMZXwUn5wrRnydLYdDvs-4">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="440" y="570" as="sourcePoint" />
-            <mxPoint x="630" y="500" as="targetPoint" />
+            <mxPoint x="470" y="240" as="sourcePoint" />
+            <mxPoint x="630" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RMZXwUn5wrRnydLYdDvs-7" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="RMZXwUn5wrRnydLYdDvs-3" target="RMZXwUn5wrRnydLYdDvs-4">
+        <mxCell id="RMZXwUn5wrRnydLYdDvs-6" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="RMZXwUn5wrRnydLYdDvs-13" source="RMZXwUn5wrRnydLYdDvs-2" target="RMZXwUn5wrRnydLYdDvs-4">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="450" y="580" as="sourcePoint" />
-            <mxPoint x="650" y="520" as="targetPoint" />
+            <mxPoint x="120" y="270" as="sourcePoint" />
+            <mxPoint x="310" y="200" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="RMZXwUn5wrRnydLYdDvs-7" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="RMZXwUn5wrRnydLYdDvs-13" source="RMZXwUn5wrRnydLYdDvs-3" target="RMZXwUn5wrRnydLYdDvs-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="130" y="280" as="sourcePoint" />
+            <mxPoint x="330" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RMZXwUn5wrRnydLYdDvs-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;領域&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- 所有権: 所有権&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- value: int&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ 埋める(): vod&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="320" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RMZXwUn5wrRnydLYdDvs-17" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="190" y="930" width="620" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="RMZXwUn5wrRnydLYdDvs-18" value="&lt;div&gt;AbstractFactory&lt;/div&gt;&lt;div&gt;盤面生絵師&lt;br&gt;&lt;/div&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="RMZXwUn5wrRnydLYdDvs-17">
+          <mxGeometry width="620" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="RMZXwUn5wrRnydLYdDvs-19" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;盤面の生成&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 最初に盤面生成をチェック&lt;/div&gt;&lt;div&gt;- ここで作っていく&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="RMZXwUn5wrRnydLYdDvs-17">
+          <mxGeometry x="30" y="210" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="RMZXwUn5wrRnydLYdDvs-20" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;領域の生成&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="RMZXwUn5wrRnydLYdDvs-17">
+          <mxGeometry x="230" y="260" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RMZXwUn5wrRnydLYdDvs-21" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;マスの生成&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="RMZXwUn5wrRnydLYdDvs-17">
+          <mxGeometry x="430" y="260" width="160" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
